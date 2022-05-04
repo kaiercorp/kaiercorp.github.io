@@ -8,6 +8,7 @@ tags: [install, win10, anaconda, python]
 
 # 1. 확장 설치
 
+![vscode extensions](/assets/img/post/vscode-extensions.png)
 - VS code 실행 후 Extenstions 탭 클릭
 - Python 과 Code Runner 확장 설치
 - VS code 재실행
@@ -21,4 +22,4 @@ tags: [install, win10, anaconda, python]
 # 3. 에러 발생 시
 
 > ommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
-- 저기로
+- [관련](https://kaiercorp.github.io/posts/conda-activate/)
