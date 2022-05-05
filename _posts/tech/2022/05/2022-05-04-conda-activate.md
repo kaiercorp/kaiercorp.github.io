@@ -1,6 +1,6 @@
 ---
 title: Win 10 conda activate Error
-author: Jaewuk Lee
+author: jwlee
 date: 2022-05-04 16:11:00 +0900
 categories: [Anaconda]
 tags: [tips, error, vscode, win10]

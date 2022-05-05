@@ -1,6 +1,6 @@
 ---
 title: VS code Anaconda 연동
-author: Jaewuk Lee
+author: jwlee
 date: 2022-05-04 16:30:00 +0900
 categories: [Anaconda]
 tags: [install, win10, anaconda, python]
@@ -8,7 +8,7 @@ tags: [install, win10, anaconda, python]
 
 # 1. 확장 설치
 
-![vscode extensions](/assets/img/post/vscode-extensions.png)
+![vscode extensions](/assets/img/post/tech/2022/05/vscode-anaconda/vscode-extensions.png)
 - VS code 실행 후 Extenstions 탭 클릭
 - Python 과 Code Runner 확장 설치
 - VS code 재실행
