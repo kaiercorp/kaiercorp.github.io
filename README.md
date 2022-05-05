@@ -19,6 +19,7 @@
 - google_analytics
   - 구글 연동 필요시 설정합시다.
 - theme_mode
+  - dark/light 중 선택 가능하며, 기본값으로 두면 시스템 설정을 따릅니다.
 - toc: true
   - 포스트 내용을 제목 태그에 따라 목록화 해주는 기능입니다.
 - paginate: 10
