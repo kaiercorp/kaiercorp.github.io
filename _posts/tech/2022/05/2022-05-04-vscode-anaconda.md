@@ -1,6 +1,6 @@
 ---
 title: VS code Anaconda 연동
-author: jwlee
+author: JaewukLee-S
 date: 2022-05-04 16:30:00 +0900
 categories: [Anaconda]
 tags: [install, win10, anaconda, python]
