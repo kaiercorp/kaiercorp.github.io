@@ -55,6 +55,12 @@
   - tags: [a, b, c] 형태로 다양한 태그를 달 수 있습니다.
   - 그 외에 Markdown 형식으로 포스팅 하면 됩니다.
 
+## 4. Social
+_data/contact.yml
+- Social ID 등록 가능
+- 현재 github, email, rss 만 등록함
+- twitter, stackoverflow linkedin 추가 가능
+
 ## TODO
 - Jekyll 환경 설정
 - Jekyll Theme 적용
