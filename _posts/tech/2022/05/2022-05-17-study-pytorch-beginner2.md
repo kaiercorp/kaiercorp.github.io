@@ -52,7 +52,7 @@ tags: [study, Machine Learning, PyTorch, Beginner]
 
 #### 1) low-level
 
-<details>
+
 
 ```python
 import torch
@@ -89,11 +89,11 @@ cost = (y_one_hot * - torch.log(hypothesis)).sum(dim=1).mean()
 
 ```
 
-</details>
+
 
 #### 2) high-level
 
-<details>
+
 
 ```python
 # 1. low level 수식
@@ -113,7 +113,7 @@ cost = F.nll_loss(F.log_softmax(z, dim=1), y)
 cost = F.cross_entropy(z, y)
 ```
 
-</details>
+
 
 ### 4. MNIST 데이터 분류
 #### 1. MNIST
@@ -126,7 +126,7 @@ cost = F.cross_entropy(z, y)
 - 각 이미지는 28 x 28 픽셀
 
 
-<details>
+
 
 ```python
 # torchvision은 유명한 데이터셋들, 이미 구현된 유명 모델들, 일반적인 전처리 도구들을 포함하고 있음
@@ -237,7 +237,7 @@ with torch.no_grad(): # torch.no_grad()를 하면 gradient 계산을 수행하�
     plt.show()
 ```
 
-</details>
+
 
 
 ## [6] 인공 신경망
@@ -274,7 +274,7 @@ with torch.no_grad(): # torch.no_grad()를 하면 gradient 계산을 수행하�
 
 ![XOR](/assets/img/post/tech/2022/05/pytorch-beginner/xorgraphandxorgate.png)
 
-<details>
+
 
 ```python
 def AND_gate(x1, x2):
@@ -308,7 +308,7 @@ def OR_gate(x1, x2):
         return 1
 ```
 
-</details>
+
 
 ### 3. 다층 퍼셉트론 MLP MultiLayer Perceptron
 - XOR 게이트는 AND, NAND, OR 게이트를 조합하면 만들 수 있음.
@@ -318,7 +318,7 @@ def OR_gate(x1, x2):
 
 - 이와 같이 입력층과 출력층 사이에 존재하는 것을 은닉층 hidden layer 라 함
 
-<details>
+
 
 ```python
 import torch
@@ -376,4 +376,4 @@ with torch.no_grad():
     print('정확도(Accuracy): ', accuracy.item())
 ```
 
-</details>
+

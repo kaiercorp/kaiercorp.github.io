@@ -189,7 +189,7 @@ torch_beginner e:\Anaconda3\envs\torch_beginner
 - 따라서 경사하강법은 cost function의 기울기가 0에 가까운 상태를 찾는다.
 
 #### 2. 구현
-<details>
+
 
 ```python
 import torch
@@ -230,12 +230,12 @@ for epoch in range(nb_epochs + 1):
         print('Epoch {:4d}/{} W: {:.3f}, b: {:.3f} Cost: {:.6f}'.format(epoch, nb_epochs, W.item(), b.item(), cost.item()))
 
 ```
-</details>
+
 
 
 ### 다중 선형 회귀
 
-<details>
+
 
 ```python
 import torch
@@ -278,7 +278,7 @@ pred_y = model(new_var)
 print('result : ', pred_y)
 ```
 
-</details>
+
 
 ## [4] 로지스틱 회귀 Logistic Regression
 ### 로지스틱 회귀
@@ -299,7 +299,7 @@ print('result : ', pred_y)
 
 ### 구현
 
-<details>
+
 
 ```python
 import torch
@@ -342,5 +342,5 @@ for epoch in range(nb_epochs + 1):
 print(list(model.parameters()))
 ```
 
-</details>
+
 
