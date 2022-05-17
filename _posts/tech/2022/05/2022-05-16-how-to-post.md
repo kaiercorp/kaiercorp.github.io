@@ -1,7 +1,7 @@
 ---
 title: 블로그 포스팅 방법
 author: JaewukLee-S
-date: 2022-05-15 16:30:00 +0900
+date: 2022-05-16 16:30:00 +0900
 categories: [Git]
 tags: [tips, git, blog]
 ---
